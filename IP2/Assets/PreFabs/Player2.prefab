@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2059143559927156948}
   - component: {fileID: 6041932912060052417}
-  - component: {fileID: 6117743888755951263}
   - component: {fileID: 5571756919014159285}
   - component: {fileID: 6634382968888708171}
+  - component: {fileID: 3166182618319876348}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87,32 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &6117743888755951263
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3220695466305729264}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.0000011920929, y: -0.00000047683716}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.01, y: 14.5}
-    newSize: {x: 3.01, y: 14.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.1875308, y: 14.427672}
-  m_EdgeRadius: 0
 --- !u!50 &5571756919014159285
 Rigidbody2D:
   serializedVersion: 4
@@ -146,11 +120,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3853116599a64514ea59f079f9ee9067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveLeftKey: 276
+  moveRightKey: 275
+  JumpKey: 273
+  Block: 274
+  speed: 0.2
+  health: 100
+  animator: {fileID: 0}
+  damage1: {r: 1, g: 1, b: 1, a: 1}
+  isTouchingGround: 0
+  faceRight: 1
   unitTitle: First Enemy
   unitLevel: 1
   damage: 5
   maxHealth: 100
   currentHealth: 100
+--- !u!61 &3166182618319876348
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3220695466305729264}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.01, y: 14.5}
+    newSize: {x: 3.01, y: 14.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.01, y: 14.5}
+  m_EdgeRadius: 0
 --- !u!1 &4562474408988791369
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +321,7 @@ MonoBehaviour:
     m_Bits: 12
   SpellPathPrefab: {fileID: 5137275033095244184, guid: 361b34784963bc54291526a147178eee, type: 3}
   SpellFlashPrefab: {fileID: 3898676105516544309, guid: 9e0ef9cf1eec9cf41ab97d7369425340, type: 3}
+  SpellHitPrefab: {fileID: 0}
   spawnEffectRate: 10
 --- !u!1 &6129537579687379829
 GameObject:

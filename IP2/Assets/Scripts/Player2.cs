@@ -9,16 +9,14 @@ public class Player2 : MonoBehaviour
     public KeyCode moveRightKey = KeyCode.RightArrow;
     public KeyCode JumpKey = KeyCode.UpArrow;
     public KeyCode Block = KeyCode.DownArrow;
-    bool canjump = false;
+    public KeyCode Quickend = KeyCode.G;
     float direction = 0.0f;
     public float speed = 0.2f;
     public int health = 100;
-    public Animator animator;
-    bool blocking = false;
     private Renderer rend;
-    public Color damage1 = Color.white;
     public bool isTouchingGround = false;
     public bool faceRight = true;
+    bool Turn2 = false;
 
     public string unitTitle;
     public int unitLevel;
@@ -37,19 +35,42 @@ public class Player2 : MonoBehaviour
     {
         bool isLeftPressed = Input.GetKey(moveLeftKey);
         bool isRightPressed = Input.GetKey(moveRightKey);
+        bool isEndPressed = Input.GetKey(Quickend);
         Jump();
 
-        if (isLeftPressed)
+        if (Turn2 == true)
         {
-            direction = -1.0f;
+            if (isLeftPressed)
+            {
+                direction = -1.0f;
+            }
+            else if (isRightPressed)
+            {
+                direction = 1.0f;
+            }
+            else
+            {
+                direction = 0.0f;
+            }
+            if (isEndPressed)
+            {
+                SceneManager.LoadScene("GameOverBlue");
+            }
+            StartCoroutine(Timer());
+            IEnumerator Timer()
+            {
+                yield return new WaitForSeconds(8f);
+                Turn2 = false;
+            }
         }
-        else if (isRightPressed)
+        if (Turn2 == false)
         {
-            direction = 1.0f;
-        }
-        else
-        {
-            direction = 0.0f;
+            StartCoroutine(Timer());
+            IEnumerator Timer()
+            {
+                yield return new WaitForSeconds(8f);
+                Turn2 = true;
+            }
         }
     }
 
@@ -64,23 +85,40 @@ public class Player2 : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") && isTouchingGround == true)
-        {
-            gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, 5f), ForceMode2D.Impulse);
-        }
+        bool isJumpPressed = Input.GetKey(JumpKey);
 
+        if (isJumpPressed && isTouchingGround)
+        {
+            GetComponent<Rigidbody2D>().AddForce(Vector3.up * 10);
+        }
     }
 
     public void TakeDamage(int damage)
     {
-        if (blocking == false)
-        {
-            health -= damage;
+        health -= damage;
 
-            if (health <= 0)
-            {
-                SceneManager.LoadScene("GameOverRed");
-            }
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("GameOverRed");
+        }
+    }
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        switch (other.gameObject.name)
+        {
+            case "AreaZone":
+                isTouchingGround = true;
+                break;
+        }
+    }
+    public void OnCollisionExit2D(Collision2D other)
+    {
+        switch (other.gameObject.name)
+        {
+            case "AreaZone":
+                isTouchingGround = false;
+                break;
         }
     }
 }
