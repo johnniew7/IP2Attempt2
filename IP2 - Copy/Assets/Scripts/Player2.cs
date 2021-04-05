@@ -17,10 +17,10 @@ public class Player2 : MonoBehaviour
     public bool isTouchingGround = false;
     public bool faceRight = true;
     bool Turn2 = false;
+    public Health2 Health2;
 
     public string unitTitle;
     public int unitLevel;
-    public int damage;
     public int maxHealth;
     public int currentHealth;
 
@@ -96,6 +96,7 @@ public class Player2 : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        Health2.SetHealth(health);
 
         if (health <= 0)
         {

@@ -17,6 +17,7 @@ public class Player1 : MonoBehaviour
     public bool isTouchingGround = false;
     public bool faceLeft = true;
     bool Turn1 = true;
+    public Health1 Health1;
 
     public string unitTitle;
     public int unitLevel;
@@ -53,7 +54,8 @@ public class Player1 : MonoBehaviour
             }
             if (isEndPressed)
             {
-                SceneManager.LoadScene("GameOverRed");
+                health = 10;
+                Health1.SetHealth(health);
             }
             StartCoroutine(Timer());
             IEnumerator Timer()
@@ -96,6 +98,7 @@ public class Player1 : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
+        Health1.SetHealth(health);
 
         if (health <= 0)
         {

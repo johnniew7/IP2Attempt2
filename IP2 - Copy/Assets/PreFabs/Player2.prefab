@@ -528,9 +528,9 @@ MonoBehaviour:
   health: 100
   isTouchingGround: 0
   faceRight: 1
+  Health2: {fileID: 0}
   unitTitle: First Enemy
   unitLevel: 1
-  damage: 5
   maxHealth: 100
   currentHealth: 100
 --- !u!1 &4562474408988791369
@@ -686,15 +686,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab28f429b4be3647ab072ac3e2c045f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rateOfFire: 0
-  spellDamage: 10
-  notHit:
-    serializedVersion: 2
-    m_Bits: 12
-  SpellPathPrefab: {fileID: 5137275033095244184, guid: 361b34784963bc54291526a147178eee, type: 3}
-  SpellFlashPrefab: {fileID: 3898676105516544309, guid: 9e0ef9cf1eec9cf41ab97d7369425340, type: 3}
-  SpellHitPrefab: {fileID: 0}
-  spawnEffectRate: 10
+  spellLP: {fileID: 7666013236295170389}
+  spellprefab: {fileID: 6159942519627670685, guid: 88a9ed112238994439e0b47087333e0f, type: 3}
 --- !u!1 &6129537579687379829
 GameObject:
   m_ObjectHideFlags: 0
