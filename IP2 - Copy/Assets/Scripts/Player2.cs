@@ -24,6 +24,8 @@ public class Player2 : MonoBehaviour
     public int maxHealth;
     public int currentHealth;
 
+    public Animator animator;
+
     void FixedUpdate()
     {
         Vector3 Position = transform.localPosition;
@@ -36,7 +38,12 @@ public class Player2 : MonoBehaviour
         bool isLeftPressed = Input.GetKey(moveLeftKey);
         bool isRightPressed = Input.GetKey(moveRightKey);
         bool isEndPressed = Input.GetKey(Quickend);
+
         Jump();
+
+        animator.SetBool("Movement", isLeftPressed);
+        animator.SetBool("Movement", isRightPressed);
+
 
         if (Turn2 == true)
         {

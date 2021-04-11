@@ -12,6 +12,7 @@ public class Fireball : MonoBehaviour
         Player2 Player2 = hitInfo.GetComponent<Player2>();
         if (Player2 != null)
         {
+            Debug.Log("Player2 hit");
             Player2.TakeDamage(damage);
         }
     }

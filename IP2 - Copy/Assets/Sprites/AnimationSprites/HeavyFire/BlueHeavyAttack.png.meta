@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 671b42ffae6783648ae4cbd3fce078f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5489282755091170309
+    second: BlueHeavyAttack_0
+  - first:
+      213: -2832175645668687872
+    second: BlueHeavyAttack_1
+  - first:
+      213: -7911022303781802741
+    second: BlueHeavyAttack_2
+  - first:
+      213: -5793669404672178275
+    second: BlueHeavyAttack_3
+  - first:
+      213: 7333966758996448732
+    second: BlueHeavyAttack_4
+  - first:
+      213: -358439824097701349
+    second: BlueHeavyAttack_5
+  - first:
+      213: 6715298519544774331
+    second: BlueHeavyAttack_6
+  - first:
+      213: 711911522424297120
+    second: BlueHeavyAttack_7
+  - first:
+      213: -5292933719908178091
+    second: BlueHeavyAttack_8
+  - first:
+      213: 9150762480761912866
+    second: BlueHeavyAttack_9
+  - first:
+      213: -4232005886063061081
+    second: BlueHeavyAttack_10
+  - first:
+      213: 5245321532878037784
+    second: BlueHeavyAttack_11
+  - first:
+      213: -6694240173339354708
+    second: BlueHeavyAttack_12
+  - first:
+      213: 3474410062231998632
+    second: BlueHeavyAttack_13
+  - first:
+      213: -8623209992893337605
+    second: BlueHeavyAttack_14
+  - first:
+      213: -4867093032331718288
+    second: BlueHeavyAttack_15
+  - first:
+      213: -1495907656234360644
+    second: BlueHeavyAttack_16
+  - first:
+      213: 3447094323924489036
+    second: BlueHeavyAttack_17
+  - first:
+      213: -802438961300986281
+    second: BlueHeavyAttack_18
+  - first:
+      213: -3621860395918623864
+    second: BlueHeavyAttack_19
+  - first:
+      213: -2604736818905533088
+    second: BlueHeavyAttack_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueHeavyAttack_0
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1622
+        width: 97
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50403e01599dd2c40800000000000000
+      internalID: 5489282755091170309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_1
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1624
+        width: 78
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000c76a714712b8d0800000000000000
+      internalID: -2832175645668687872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1623
+        width: 90
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0da4ec0127663290800000000000000
+      internalID: -7911022303781802741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1622
+        width: 89
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9747746f50c89fa0800000000000000
+      internalID: -5793669404672178275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1309
+        width: 79
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5918809eb77c560800000000000000
+      internalID: 7333966758996448732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1308
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b129d4b01e0960bf0800000000000000
+      internalID: -358439824097701349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_6
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1308
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe3c22ac68813d50800000000000000
+      internalID: 6715298519544774331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_7
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1308
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a69b9df1c731e900800000000000000
+      internalID: 711911522424297120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 977
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557af2d23d8bb86b0800000000000000
+      internalID: -5292933719908178091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_9
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 977
+        width: 76
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e39c15ef90efe70800000000000000
+      internalID: 9150762480761912866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_10
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 976
+        width: 109
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a759d99115e445c0800000000000000
+      internalID: -4232005886063061081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 977
+        width: 114
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81327eba4202bc840800000000000000
+      internalID: 5245321532878037784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca955faa7084913a0800000000000000
+      internalID: -6694240173339354708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_13
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0916b1b85973030800000000000000
+      internalID: 3474410062231998632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_14
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff6efdf234345880800000000000000
+      internalID: -8623209992893337605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_15
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071d61f8cac947cb0800000000000000
+      internalID: -4867093032331718288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 325
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb02d5d89e77d3be0800000000000000
+      internalID: -1495907656234360644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_17
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 324
+        width: 108
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43d8cc260a86df20800000000000000
+      internalID: 3447094323924489036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_18
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 311
+        width: 92
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756a8b5240a2dd4f0800000000000000
+      internalID: -802438961300986281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_19
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 316
+        width: 94
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bf63bc8219cbdc0800000000000000
+      internalID: -3621860395918623864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueHeavyAttack_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 58
+        width: 78
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06531c7e9ad1adbd0800000000000000
+      internalID: -2604736818905533088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
