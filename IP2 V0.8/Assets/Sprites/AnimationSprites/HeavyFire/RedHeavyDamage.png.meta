@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: ce5ec7bb2ef4e314d9595bac03650941
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5591910112019226005
+    second: RedHeavyDamage_0
+  - first:
+      213: -8902392412128020495
+    second: RedHeavyDamage_1
+  - first:
+      213: 4612746426002288035
+    second: RedHeavyDamage_2
+  - first:
+      213: -8766855730024217071
+    second: RedHeavyDamage_3
+  - first:
+      213: -5211593663272501936
+    second: RedHeavyDamage_4
+  - first:
+      213: 660007594902777359
+    second: RedHeavyDamage_5
+  - first:
+      213: -1476901332670395078
+    second: RedHeavyDamage_6
+  - first:
+      213: -7727269545769130134
+    second: RedHeavyDamage_7
+  - first:
+      213: -8876489518270734323
+    second: RedHeavyDamage_8
+  - first:
+      213: 4551844372000351454
+    second: RedHeavyDamage_9
+  - first:
+      213: 4119966438298689113
+    second: RedHeavyDamage_10
+  - first:
+      213: -3641514352412226124
+    second: RedHeavyDamage_11
+  - first:
+      213: -5464229124091564761
+    second: RedHeavyDamage_12
+  - first:
+      213: 655349294652673754
+    second: RedHeavyDamage_13
+  - first:
+      213: -2737458412861621365
+    second: RedHeavyDamage_14
+  - first:
+      213: -5431523341443277188
+    second: RedHeavyDamage_15
+  - first:
+      213: -8743608980142116334
+    second: RedHeavyDamage_16
+  - first:
+      213: -1873046651975662370
+    second: RedHeavyDamage_17
+  - first:
+      213: -4586867522571730474
+    second: RedHeavyDamage_18
+  - first:
+      213: -8044104871251264608
+    second: RedHeavyDamage_19
+  - first:
+      213: 6880868484790746320
+    second: RedHeavyDamage_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RedHeavyDamage_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1622
+        width: 98
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62ed2d516b8562b0800000000000000
+      internalID: -5591910112019226005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_1
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1624
+        width: 78
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7f9ff9449547480800000000000000
+      internalID: -8902392412128020495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_2
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 1623
+        width: 90
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ada1d06f64c30040800000000000000
+      internalID: 4612746426002288035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_3
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 1622
+        width: 89
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1160fce892fd55680800000000000000
+      internalID: -8766855730024217071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_4
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1309
+        width: 79
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d37faec23bca7b0800000000000000
+      internalID: -5211593663272501936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_5
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1308
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e6d332961d82900800000000000000
+      internalID: 660007594902777359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_6
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1308
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d41e9101ef08be0800000000000000
+      internalID: -1476901332670395078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_7
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 1308
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67acb8f94933c490800000000000000
+      internalID: -7727269545769130134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_8
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 977
+        width: 75
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00aef210df50d480800000000000000
+      internalID: -8876489518270734323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_9
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 977
+        width: 76
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed421f1f6566b2f30800000000000000
+      internalID: 4551844372000351454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_10
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 976
+        width: 109
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e1359a5af0d2930800000000000000
+      internalID: 4119966438298689113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_11
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 977
+        width: 114
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd8bf37dfdb67dc0800000000000000
+      internalID: -3641514352412226124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_12
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dad27ff882b24b0800000000000000
+      internalID: -5464229124091564761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_13
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade439716b4481900800000000000000
+      internalID: 655349294652673754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_14
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b7af1c318920ad0800000000000000
+      internalID: -2737458412861621365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_15
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 634
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ed7046c4a5f94b0800000000000000
+      internalID: -5431523341443277188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 325
+        width: 178
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212b6bb45f578a680800000000000000
+      internalID: -8743608980142116334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_17
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 324
+        width: 108
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4814d6ef99106e0800000000000000
+      internalID: -1873046651975662370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_18
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 311
+        width: 92
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1065d5a4c2850c0800000000000000
+      internalID: -4586867522571730474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_19
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 316
+        width: 94
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab34153d399d5090800000000000000
+      internalID: -8044104871251264608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RedHeavyDamage_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 58
+        width: 78
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcf1263e61cd7f50800000000000000
+      internalID: 6880868484790746320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

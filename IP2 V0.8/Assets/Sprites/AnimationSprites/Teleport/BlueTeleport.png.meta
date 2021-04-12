@@ -1,0 +1,471 @@
+fileFormatVersion: 2
+guid: 73004952cacf6604285847ee2904205d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 902985131747191576
+    second: BlueTeleport_0
+  - first:
+      213: -2023148316372598889
+    second: BlueTeleport_1
+  - first:
+      213: -5160952371749272501
+    second: BlueTeleport_2
+  - first:
+      213: 4594915695719361158
+    second: BlueTeleport_3
+  - first:
+      213: -2214522892712385021
+    second: BlueTeleport_4
+  - first:
+      213: 5704293847275640389
+    second: BlueTeleport_5
+  - first:
+      213: -7029650882742382359
+    second: BlueTeleport_6
+  - first:
+      213: 6602959105873498404
+    second: BlueTeleport_7
+  - first:
+      213: -1984309843793289055
+    second: BlueTeleport_8
+  - first:
+      213: 7026848182410903050
+    second: BlueTeleport_9
+  - first:
+      213: -7399155577009757119
+    second: BlueTeleport_10
+  - first:
+      213: 6031433958211920201
+    second: BlueTeleport_11
+  - first:
+      213: -3717176949379513467
+    second: BlueTeleport_12
+  - first:
+      213: 3719337926905604268
+    second: BlueTeleport_13
+  - first:
+      213: 5341083648762241599
+    second: BlueTeleport_14
+  - first:
+      213: -4348541045230211851
+    second: BlueTeleport_15
+  - first:
+      213: 222564500726028488
+    second: BlueTeleport_16
+  - first:
+      213: -3982713639926852977
+    second: BlueTeleport_17
+  - first:
+      213: -8743675151634863073
+    second: BlueTeleport_18
+  - first:
+      213: 5754486620186763488
+    second: BlueTeleport_19
+  - first:
+      213: 1742532398063189204
+    second: BlueTeleport_20
+  - first:
+      213: -4120508588883120999
+    second: BlueTeleport_21
+  - first:
+      213: -2046745059484715872
+    second: BlueTeleport_22
+  - first:
+      213: 506933693941080241
+    second: BlueTeleport_23
+  - first:
+      213: -6943718342176312852
+    second: BlueTeleport_24
+  - first:
+      213: 8331255475969256723
+    second: BlueTeleport_25
+  - first:
+      213: 1157112009323299951
+    second: BlueTeleport_26
+  - first:
+      213: 7327793332808539093
+    second: BlueTeleport_27
+  - first:
+      213: -8563081793632596443
+    second: BlueTeleport_28
+  - first:
+      213: -6014204774318410447
+    second: BlueTeleport_29
+  - first:
+      213: -1270095267051472703
+    second: BlueTeleport_30
+  - first:
+      213: 9198262812649361248
+    second: BlueTeleport_31
+  - first:
+      213: -8156623697220567934
+    second: BlueTeleport_32
+  - first:
+      213: -5049025955390505434
+    second: BlueTeleport_33
+  - first:
+      213: -4590888645475344939
+    second: BlueTeleport_34
+  - first:
+      213: 409468757970452315
+    second: BlueTeleport_35
+  - first:
+      213: -2805867652600072346
+    second: BlueTeleport_36
+  - first:
+      213: -5253655619517725225
+    second: BlueTeleport_37
+  - first:
+      213: -203257978162359733
+    second: BlueTeleport_38
+  - first:
+      213: -2560763020339825476
+    second: BlueTeleport_39
+  - first:
+      213: 1742984223640983963
+    second: BlueTeleport_40
+  - first:
+      213: -8526878242077290721
+    second: BlueTeleport_41
+  - first:
+      213: -7327559429519810035
+    second: BlueTeleport_42
+  - first:
+      213: -1907786506127089732
+    second: BlueTeleport_43
+  - first:
+      213: 6428652060708914111
+    second: BlueTeleport_44
+  - first:
+      213: 1652499464861583765
+    second: BlueTeleport_45
+  - first:
+      213: 1668389584948010792
+    second: BlueTeleport_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueTeleport_0
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 814
+        width: 103
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b204f613c088c00800000000000000
+      internalID: 902985131747191576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_1
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 815
+        width: 101
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7eaa43555ce3e0800000000000000
+      internalID: -2023148316372598889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_2
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 810
+        width: 103
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44cc2b692d9068b0800000000000000
+      internalID: -5160952371749272501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_3
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 815
+        width: 102
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a2838fa7b64cf30800000000000000
+      internalID: 4594915695719361158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_4
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 394
+        width: 101
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30668e0892f6441e0800000000000000
+      internalID: -2214522892712385021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_5
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 395
+        width: 101
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5469f4d0809b92f40800000000000000
+      internalID: 5704293847275640389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_6
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 397
+        width: 105
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0112f44c9a17e90800000000000000
+      internalID: -7029650882742382359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_7
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 396
+        width: 100
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4215504a25c62ab50800000000000000
+      internalID: 6602959105873498404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 73
+        width: 104
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0e36cd5b05674e0800000000000000
+      internalID: -1984309843793289055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueTeleport_9
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 71
+        width: 120
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e733b2131648160800000000000000
+      internalID: 7026848182410903050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
