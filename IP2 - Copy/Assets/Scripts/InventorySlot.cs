@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public class InventorySlot : MonoBehaviour
-{
+//public class InventorySlot : MonoBehaviour
+//{
     //public Image icon;
 
     //Item item;
@@ -21,4 +21,4 @@ public class InventorySlot : MonoBehaviour
         //icon.sprite = null;
         //icon.enabled = false; 
     //}
-}
+//}

@@ -14558,9 +14558,9 @@ GameObject:
   - component: {fileID: 6851995375274170682}
   - component: {fileID: 2593498583926852611}
   - component: {fileID: 2593498583926852610}
-  - component: {fileID: -5621038326664602496}
   - component: {fileID: -212085364473813288}
   - component: {fileID: 3384821565046589491}
+  - component: {fileID: 8680815432306121030}
   m_Layer: 0
   m_Name: FireballProjectile
   m_TagString: Untagged
@@ -18408,15 +18408,15 @@ ParticleSystem:
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
-    collisionMessages: 0
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
-    enabled: 0
+    enabled: 1
     serializedVersion: 2
-    inside: 1
+    inside: 0
     outside: 0
-    enter: 0
+    enter: 2
     exit: 0
     colliderQueryMode: 0
     radiusScale: 1
@@ -19436,20 +19436,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &-5621038326664602496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6159942519627670685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd775087da7474a46b1a617d6442c659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 10
-  rb: {fileID: -212085364473813288}
 --- !u!50 &-212085364473813288
 Rigidbody2D:
   serializedVersion: 4
@@ -19501,6 +19487,20 @@ PolygonCollider2D:
       - {x: -0.000005877852, y: -0.00000809017}
       - {x: 0.0000058778537, y: -0.000008090169}
       - {x: 0.000009510564, y: 0.000003090171}
+--- !u!114 &8680815432306121030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159942519627670685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd775087da7474a46b1a617d6442c659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 10
+  Attackfire: {fileID: 2593498583926852611}
 --- !u!1 &7125867640976076698
 GameObject:
   m_ObjectHideFlags: 0

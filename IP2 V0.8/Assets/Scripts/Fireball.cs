@@ -4,16 +4,26 @@ using UnityEngine;
 
 public class Fireball : MonoBehaviour
 {
-    public int damage = 10;
-    public Rigidbody2D rb;
+    public int damage = 20;
 
-    private void OnTriggerEnter2D(Collider2D hitInfo)
+    public ParticleSystem Attackfire;
+
+    void Start()
     {
-        Player2 Player2 = hitInfo.GetComponent<Player2>();
+        Attackfire = GetComponent<ParticleSystem>();
+    }
+
+    public void OnParticleCollision(GameObject other)
+    {
+        Player2 Player2 = other.GetComponent<Player2>();
         if (Player2 != null)
         {
-            Debug.Log("Player2 hit");
             Player2.TakeDamage(damage);
+        }
+        Player1 player1 = other.GetComponent<Player1>();
+        if (player1 != null)
+        {
+            player1.TakeDamage(damage);
         }
     }
 }

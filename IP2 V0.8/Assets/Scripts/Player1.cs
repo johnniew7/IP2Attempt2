@@ -42,22 +42,23 @@ public class Player1 : MonoBehaviour
 
         Jump();
 
-        animator.SetBool("Movement", isLeftPressed);
-        animator.SetBool("Movement", isRightPressed);
 
         if (Turn1 == true)
         {
             if (isLeftPressed)
             {
                 direction = -1.0f;
+                animator.SetBool("Movement", true);
             }
             else if (isRightPressed)
             {
                 direction = 1.0f;
+                animator.SetBool("Movement", true);
             }
             else
             {
                 direction = 0.0f;
+                animator.SetBool("Movement", false);
             }
             if (isEndPressed)
             {
@@ -67,7 +68,7 @@ public class Player1 : MonoBehaviour
             StartCoroutine(Timer());
             IEnumerator Timer()
             {
-                yield return new WaitForSeconds(30f);
+                yield return new WaitForSeconds(5f);
                 Turn1 = false;
             }
         }
@@ -76,7 +77,7 @@ public class Player1 : MonoBehaviour
             StartCoroutine(Timer());
             IEnumerator Timer()
             {
-                yield return new WaitForSeconds(30f);
+                yield return new WaitForSeconds(5f);
                 Turn1 = true;
             }
         }

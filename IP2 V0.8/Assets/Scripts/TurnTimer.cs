@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class TurnTimer : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 30f;
+    float startingTime = 5f;
 
     [SerializeField] Text timerText;
 
@@ -21,18 +21,18 @@ public class TurnTimer : MonoBehaviour
         currentTime -= 1 * Time.deltaTime;
         timerText.text = currentTime.ToString ("0");
 
-        if (currentTime <= 10)
+        if (currentTime <= 2)
         {
             timerText.color = Color.red;
         }
-        if (currentTime >= 30)
+        if (currentTime >= 5)
         {
             timerText.color = Color.white;
         }
         
         if (currentTime <= 0)
         {
-            currentTime = 30;
+            currentTime = 5;
         }
     }
 }
